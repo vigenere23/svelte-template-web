@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# USAGE
+# ./scripts/compress_images public/images/**/*.png
+# will copy each .png images in subfolders of public/images
+#  and create a .webp equivalent
+
+files=$@
+echo -e "\nFiles to be copied :"
+echo -e "$files" | tr " " "\n"
+for file in $files; do
+  cwebp -mt -exact "$file" -o "${file%.png}.webp"
+done

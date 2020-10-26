@@ -1,0 +1,41 @@
+# TODO uncomment to activate workflow
+# name: Github pages
+
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths-ignore:
+#       - README.md
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checking out
+#         uses: actions/checkout@v2
+
+#       - name: Caching dependencies
+#         uses: actions/cache@v1
+#         with:
+#           path: '~/.yarn'
+#           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+#           restore-keys: ${{ runner.os }}-yarn-
+
+#       - name: Installing dependencies
+#         run: yarn
+
+#       - name: Building for production
+#         run: yarn build
+
+#       - name: Deploying to github-pages
+#         # TODO fill missing __GIT_USERNAME__ and __GIT_EMAIL__
+#         run: |
+#           cd public
+#           git init
+#           git config user.name "__GIT_USERNAME__"
+#           git config user.email "__GIT_EMAIL__"
+#           git add -A
+#           git commit -m 'deploy'
+#           git push -f https://x-access-token:${{ secrets.GITHUBIO_DEPLOY }}@github.com/__GIT_USERNAME__/__GIT_USERNAME__.github.io master

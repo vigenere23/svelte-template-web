@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# USAGE
+# ./scripts/create_thumbnails public/images/**/*.png
+# will copy each .png images in subfolders of public/images
+#  and create a .webp thumbnail version.
+# Replace the "400" with any wanted width
+
+files=$@
+echo -e "\nFiles to be copied :"
+echo -e "$files" | tr " " "\n"
+for file in $files; do
+  cwebp -mt -exact -resize 400 0 "$file" -o "${file%.png}_thumb.webp"
+done
