@@ -1,13 +1,15 @@
-<TopBar dark>
-  <div slot="left">
-    <HomeButton />
-  </div>
-</TopBar>
-<GioSection>
-  <GioContent maxWidth="750px">
-    <svelte:component this={article} />
-  </GioContent>
-</GioSection>
+<DefaultLayout>
+  <TopBar dark>
+    <div slot="left">
+      <HomeButton />
+    </div>
+  </TopBar>
+  <GioSection>
+    <GioContent maxWidth="750px">
+      <svelte:component this={article} />
+    </GioContent>
+  </GioSection>
+</DefaultLayout>
 
 <script lang="ts">
   import { replace } from 'svelte-spa-router'
@@ -17,6 +19,7 @@
   import { fromKebabCasetoPascalCase } from '@gabio/design-svelte/lib/strings'
   import * as articleFolder from '../data/articles'
   import HomeButton from '../components/buttons/HomeButton.svelte'
+  import DefaultLayout from '../layouts/DefaultLayout.svelte'
 
   interface Params {
     id?: string

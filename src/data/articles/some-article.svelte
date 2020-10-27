@@ -83,8 +83,8 @@
     </GioSmartLink>.
   </GioBodyText>
   <hr />
-  <GioHeading level={1} id="#overview">Overview</GioHeading>
-  <GioHeading level={2} id="#philosophy">Philosophy</GioHeading>
+  <GioHeading level={1} id="overview">Overview</GioHeading>
+  <GioHeading level={2} id="philosophy">Philosophy</GioHeading>
   <GioBodyText>
     Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
   </GioBodyText>
@@ -117,8 +117,8 @@
     -- the single biggest source of inspiration for Markdown&#39;s syntax is the
     format of plain text email.
   </GioBodyText>
-  <GioHeading level={1} id="#block-elements">Block Elements</GioHeading>
-  <GioHeading level={2} id="#paragraphs-and-line-breaks">
+  <GioHeading level={1} id="block-elements">Block Elements</GioHeading>
+  <GioHeading level={2} id="paragraphs-and-line-breaks">
     Paragraphs and Line Breaks
   </GioHeading>
   <GioBodyText>
@@ -144,7 +144,7 @@
     break tag using Markdown, you end a line with two or more spaces, then type
     return.
   </GioBodyText>
-  <GioHeading level={2} id="#headers">Headers</GioHeading>
+  <GioHeading level={2} id="headers">Headers</GioHeading>
   <GioBodyText>
     Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
   </GioBodyText>
@@ -154,7 +154,7 @@
     hashes don&#39;t even need to match the number of hashes used to open the
     header. (The number of opening hashes determines the header level.)
   </GioBodyText>
-  <GioHeading level={2} id="#blockquotes">Blockquotes</GioHeading>
+  <GioHeading level={2} id="blockquotes">Blockquotes</GioHeading>
   <GioBodyText>
     Markdown uses email-style
     <GioInlineCode>&gt;</GioInlineCode>
@@ -210,7 +210,7 @@
     and code blocks:
   </GioBodyText>
   <GioCaption>
-    <GioHeading level={1} id="#this-is-a-header-">This is a header.</GioHeading>
+    <GioHeading level={1} id="this-is-a-header-">This is a header.</GioHeading>
     <GioBodyText noMargin>
       <GioList indent>
         <GioListItem>This is the first list item.</GioListItem>
@@ -227,7 +227,7 @@
     with BBEdit, you can make a selection and choose Increase Quote Level from
     the Text menu.
   </GioBodyText>
-  <GioHeading level={2} id="#lists">Lists</GioHeading>
+  <GioHeading level={2} id="lists">Lists</GioHeading>
   <GioBodyText>
     Markdown supports ordered (numbered) and unordered (bulleted) lists.
   </GioBodyText>
@@ -397,7 +397,7 @@
       </GioListItem>
     </GioList>
   </GioBodyText>
-  <GioHeading level={2} id="#code-blocks">Code Blocks</GioHeading>
+  <GioHeading level={2} id="code-blocks">Code Blocks</GioHeading>
   <GioBodyText>
     Pre-formatted code blocks are used for writing about programming or markup
     source code. Rather than forming normal paragraphs, the lines of a code
@@ -442,8 +442,8 @@
   <GioCodeBlock
     language=""
     code="tell%20application%20%22Foo%22%0A%20%20%20%20beep%0Aend%20tell" />
-  <GioHeading level={1} id="#span-elements">Span Elements</GioHeading>
-  <GioHeading level={2} id="#links">Links</GioHeading>
+  <GioHeading level={1} id="span-elements">Span Elements</GioHeading>
+  <GioHeading level={2} id="links">Links</GioHeading>
   <GioBodyText>
     Markdown supports two style of links:
     <em>inline</em>
@@ -469,7 +469,7 @@
     <GioSmartLink accent href="http://example.net/">This link</GioSmartLink>
     has no title attribute.
   </GioBodyText>
-  <GioHeading level={2} id="#emphasis">Emphasis</GioHeading>
+  <GioHeading level={2} id="emphasis">Emphasis</GioHeading>
   <GioBodyText>
     Markdown treats asterisks (
     <GioInlineCode>*</GioInlineCode>) and underscores (
@@ -490,7 +490,7 @@
   <GioBodyText><em>single underscores</em></GioBodyText>
   <GioBodyText><strong>double asterisks</strong></GioBodyText>
   <GioBodyText><strong>double underscores</strong></GioBodyText>
-  <GioHeading level={2} id="#code">Code</GioHeading>
+  <GioHeading level={2} id="code">Code</GioHeading>
   <GioBodyText>
     To indicate a span of code, wrap it with backtick quotes (
     <GioInlineCode>`</GioInlineCode>). Unlike a pre-formatted code block, a code
