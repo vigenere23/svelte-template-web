@@ -1,88 +1,16 @@
 <div>
   <GioTitle noMargin fontSize="3rem">Markdown: Syntax</GioTitle>
-  <GioBodyText noMargin>
-    <GioList indent>
-      <GioListItem>
-        <GioSmartLink accent href="#markdown-syntax">
-          Markdown: Syntax
-        </GioSmartLink>
-        <GioBodyText noMargin>
-          <GioList indent>
-            <GioListItem>
-              <GioSmartLink accent href="#overview">Overview</GioSmartLink>
-              <GioBodyText noMargin>
-                <GioList indent>
-                  <GioListItem>
-                    <GioSmartLink accent href="#philosophy">
-                      Philosophy
-                    </GioSmartLink>
-                  </GioListItem>
-                </GioList>
-              </GioBodyText>
-            </GioListItem>
-            <GioListItem>
-              <GioSmartLink accent href="#block-elements">
-                Block Elements
-              </GioSmartLink>
-              <GioBodyText noMargin>
-                <GioList indent>
-                  <GioListItem>
-                    <GioSmartLink accent href="#paragraphs-and-line-breaks">
-                      Paragraphs and Line Breaks
-                    </GioSmartLink>
-                  </GioListItem>
-                  <GioListItem>
-                    <GioSmartLink accent href="#headers">Headers</GioSmartLink>
-                  </GioListItem>
-                  <GioListItem>
-                    <GioSmartLink accent href="#blockquotes">
-                      Blockquotes
-                    </GioSmartLink>
-                  </GioListItem>
-                  <GioListItem>
-                    <GioSmartLink accent href="#lists">Lists</GioSmartLink>
-                  </GioListItem>
-                  <GioListItem>
-                    <GioSmartLink accent href="#code-blocks">
-                      Code Blocks
-                    </GioSmartLink>
-                  </GioListItem>
-                </GioList>
-              </GioBodyText>
-            </GioListItem>
-            <GioListItem>
-              <GioSmartLink accent href="#span-elements">
-                Span Elements
-              </GioSmartLink>
-              <GioBodyText noMargin>
-                <GioList indent>
-                  <GioListItem>
-                    <GioSmartLink accent href="#links">Links</GioSmartLink>
-                  </GioListItem>
-                  <GioListItem>
-                    <GioSmartLink accent href="#emphasis">
-                      Emphasis
-                    </GioSmartLink>
-                  </GioListItem>
-                  <GioListItem>
-                    <GioSmartLink accent href="#code">Code</GioSmartLink>
-                  </GioListItem>
-                </GioList>
-              </GioBodyText>
-            </GioListItem>
-          </GioList>
-        </GioBodyText>
-      </GioListItem>
-    </GioList>
-  </GioBodyText>
-  <GioBodyText>
-    <strong>Note:</strong>
-    This document is itself written using Markdown; you can
-    <GioSmartLink accent href="/projects/markdown/syntax.text">
-      see the source for it by adding &#39;.text&#39; to the URL
-    </GioSmartLink>.
-  </GioBodyText>
-  <hr />
+  <GioCaption>
+    <GioBodyText>
+      <strong>Note:</strong>
+      This is a markdown test taken from
+      <GioSmartLink
+        accent
+        href="https://daringfireball.net/projects/markdown/syntax">
+        this blog
+      </GioSmartLink>
+    </GioBodyText>
+  </GioCaption>
   <GioHeading level={1} id="overview">Overview</GioHeading>
   <GioHeading level={2} id="philosophy">Philosophy</GioHeading>
   <GioBodyText>
@@ -507,12 +435,12 @@
   import {
     GioTitle,
     GioSmartLink,
-    GioListItem,
     GioBodyText,
-    GioList,
+    GioCaption,
     GioHeading,
     GioInlineCode,
-    GioCaption,
+    GioListItem,
+    GioList,
     GioCodeBlock
   } from '@gabio/design-svelte'
 </script>

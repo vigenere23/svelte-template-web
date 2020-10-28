@@ -3,7 +3,7 @@ import type { Link } from '../types/Link'
 export const links: Link[] = [
   {
     text: 'Home',
-    href: '/',
+    href: '#/',
     icon: 'home'
   },
   {

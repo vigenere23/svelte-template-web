@@ -1,7 +1,7 @@
 <DefaultLayout>
   <TopBar dark>
     <div slot="left">
-      <HomeButton />
+      <HomeButton noMarginLeft />
     </div>
   </TopBar>
   <GioSection>

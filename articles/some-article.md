@@ -1,23 +1,6 @@
 # Markdown: Syntax
 
-- [Markdown: Syntax](#markdown-syntax)
-  - [Overview](#overview)
-    - [Philosophy](#philosophy)
-  - [Block Elements](#block-elements)
-    - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-    - [Headers](#headers)
-    - [Blockquotes](#blockquotes)
-    - [Lists](#lists)
-    - [Code Blocks](#code-blocks)
-  - [Span Elements](#span-elements)
-    - [Links](#links)
-    - [Emphasis](#emphasis)
-    - [Code](#code)
-
-**Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
-
----
+> **Note:** This is a markdown test taken from [this blog](https://daringfireball.net/projects/markdown/syntax)
 
 ## Overview
 
