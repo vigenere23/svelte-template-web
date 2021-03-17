@@ -853,18 +853,18 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.32"
 
-"@gabio/design-svelte@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@gabio/design-svelte/-/design-svelte-1.3.2.tgz#2736ba7d5413abe8906ad023a41a47ace7a608d0"
-  integrity sha512-TFkPV6RcGADtQZW5IBIDXbe9QnCqI5XgOiHt3b0yWRYnJTU+DK4GOZfn/UbSZfR2Ej0OAMd5gAsQOD8rCJAjiw==
+"@gabio/design-svelte@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@gabio/design-svelte/-/design-svelte-1.3.3.tgz#84c354a2b43200fee68af138779d038b2b2f1252"
+  integrity sha512-HbnLiWXzaN+ZxVT9/jfQq26LLaXzBiOmfjBvIagM/WAkk8YCMLxBz0zZfdH49Kdto2XtcSmX3Wh0boab6L84Fg==
 
-"@gabio/markdown-transpiler@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@gabio/markdown-transpiler/-/markdown-transpiler-1.5.0.tgz#c889f55b84e9915c191b310f6dc132f57eeda186"
-  integrity sha512-2tuZmAigtS5TtKIhRmlHSbmZxZt8VTW2J/SjrxVWw5SEo7fMzudsyPlAMm/4WqmGEeLEJbLjidzEzWfiQ/j4Kg==
+"@gabio/markdown-transpiler@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@gabio/markdown-transpiler/-/markdown-transpiler-1.5.1.tgz#4fd3f2534efe721c7c57a1ea21b8d96a2ffcda51"
+  integrity sha512-zCp4yea27desiaDxfrlobNsvjoy7AC/w9HLQdZbhPuqtr/ytKHwTTS6oeOuZVb07cz9rCaoyvkHq4Mg4pF0NgQ==
   dependencies:
     glob "^7.1.6"
-    marked "^1.1.1"
+    marked "^2.0.0"
 
 "@mdn/browser-compat-data@^2.0.3":
   version "2.0.3"
@@ -1640,10 +1640,10 @@ make-error@^1.1.1:
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
   integrity sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==
 
-marked@^1.1.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.2.tgz#5d77ffb789c4cb0ae828bfe76250f7140b123f70"
-  integrity sha512-5jjKHVl/FPo0Z6ocP3zYhKiJLzkwJAw4CZoLjv57FkvbUuwOX4LIBBGGcXjAY6ATcd1q9B8UTj5T9Umauj0QYQ==
+marked@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.1.tgz#5e7ed7009bfa5c95182e4eb696f85e948cefcee3"
+  integrity sha512-5+/fKgMv2hARmMW7DOpykr2iLhl0NgjyELk5yn92iE7z8Se1IS9n3UsFm86hFXIkvMBmVxki8+ckcpjBeyo/hw==
 
 merge-stream@^2.0.0:
   version "2.0.0"
